@@ -1,0 +1,14 @@
+body
+{
+  font-family: 'Indie Flower', cursive;
+  background: #556B2F;
+  text-shadow: 5px 5px 5px rgb(69, 69, 69);
+
+}
+#oraple{
+    background: #8cb04d;
+    font-size: 20px;
+}
+.copy_right_footer{
+    font-size: medium;
+}

@@ -1,0 +1,35 @@
+<html>
+      <head>
+    <title>Animals Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class="col-xs-12 header_div text-center" id="oraple">
+        <h2>Sound controlled Animals</h2>     
+        <p>Note: Play different sounds like barking, meowing, platypus chatter, tiger roar after pressing Start</p>     
+      </div>
+      <div class="main_div">
+        <center>
+            <br>
+            <h4 id="result_count"> </h4>
+            <h3 id="result_label">The animal is - </h3>
+            <br>
+            <button class="btn btn-info" onclick="startClassification();"> START </button>
+            <br><br>
+            <img id="animal_image" src="Er.png" width="300" height="300"><br><br><br><br><br><br><br><br><br><br>
+            <div class="copy_right-footer">
+                Developed by - Tanmay Rawat :)
+              </div>
+        </center>
+        <script src="main.js"></script>
+      </div>
+
+</body>
+</html>
